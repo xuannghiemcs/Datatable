@@ -1,0 +1,81 @@
+.Cherry {
+  text-align: center;
+
+}
+
+table {
+    width:100%;
+}
+table, th {
+    border-bottom: 2px solid #C8C8C8;
+    border-collapse: collapse;
+}
+
+table, td {
+    border-bottom: 2px solid #E0E0E0;
+    border-collapse: collapse;
+}
+
+tr.tr-hover-class:hover {
+   background: #EAECEE;
+}
+
+tr.tr-hover-class:active {
+   background: yellow;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+input.cherryBarRed {
+  border: 5px solid;
+  border-color: red;
+  outline-color: black;
+}
+
+input.cherryBarGreen {
+  border: 5px solid;
+  border-color: green;
+  outline-color: black;
+}
+
+input.cherryBarBrown {
+  border: 5px solid;
+  border-color: brown;
+  outline-color: black;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.highlightpagination a.active {
+    background-color: yellow;
+    color: white;
+}
+
+.highlightBrownpagination a.active {
+    background-color: brown;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+.green {
+    color: #A8A8A8;
+}
